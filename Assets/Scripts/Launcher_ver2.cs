@@ -111,7 +111,7 @@ public class Launcher_ver2 : MonoBehaviour {
 
 	//生成された初回だけ呼び出される
 	void Start () {
-		LoadMap_FromTextFile("map_Stage1.txt");	//テキストファイルからマップをロードする
+		LoadMap_FromTextFile("map_Stage1Test.txt");	//テキストファイルからマップをロードする
 
 		SetWalls();
 	}
